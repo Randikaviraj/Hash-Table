@@ -1,0 +1,53 @@
+
+Values of text file 1 when N=100
+
+average keys of bucket 7.0
+min keys of bucket 0
+max keys of bucket 713
+STD keys of bucket 4.648723244036077
+
+Values of text file 1 when N=100 and hash function changed
+average keys of bucket 7.0
+min keys of bucket 0
+max keys of bucket 713
+STD keys of bucket 4.843742452084385
+
+
+values of text file 2 when N=100
+
+average keys of bucket 7.0
+min keys of bucket 0
+max keys of bucket 781
+STD keys of bucket 5.1869646060166925
+
+
+values of text file 1 when N=200
+
+average keys of bucket 3.0
+min keys of bucket 0
+max keys of bucket 713
+STD keys of bucket 2.246202905335591
+
+
+values of text file 1 when N=300
+
+average keys of bucket 2.0
+min keys of bucket 0
+max keys of bucket 713
+STD keys of bucket 1.4524881807786238
+
+values of text file 1 when N=1000
+
+average keys of bucket 0.0
+min keys of bucket 0
+max keys of bucket 713
+STD keys of bucket 0.44955305598142176
+
+
+In this we use chain method and devision method hash function. As we can see depend on the text file
+the no of keys in the bucket is changed that beacuse words are slitely different.Also when we incrasing
+the no of bucket N ,the average no of keys and standrd devition is decreasing but max no of keys in a bucket
+is not going to change that means words are not equaly distributed through the bucket so hash function 
+and method is not so good.Also changing the hash function is not effected much to the values in this case
+
+
